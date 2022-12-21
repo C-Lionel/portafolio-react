@@ -1,0 +1,20 @@
+.styles-redes-sociales {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.linkedin {
+    color: #a8b5c1;
+}
+
+.whatsapp,
+.github {
+    margin-left: 3%;
+    color: #a8b5c1;
+}
+
+.styles-redes-sociales a:hover {
+    color: #7d91a3;
+    transition: all 0.5s;
+}

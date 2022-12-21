@@ -6,12 +6,12 @@
     width: 25rem
 }
 
-.btn {
+.btn-a {
     background-color: #8b97a3;
     border: #8a98a5;
 }
 
-.btn:hover {
+.btn-a:hover {
     background-color: #707f8d;
     border: #8a98a5;
 }
@@ -20,5 +20,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 10%;
+    margin-bottom: 10%;
 
 }

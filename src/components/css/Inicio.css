@@ -89,7 +89,7 @@
 .header .stylecanvasli:hover {
   margin-left: -25%;
   transition: all 0.5s;
-  color: #929472;
+  color: #bf9146;
 }
 
 .header li a {
@@ -116,7 +116,7 @@
 
 .stylecanvas {
   /* background-color: #464737; */
-  background-image: linear-gradient(to right, #464737, #323327 );
+  background-image: linear-gradient(to right, #454D54, #1F3040 );
 }
 
 

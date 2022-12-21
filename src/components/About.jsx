@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer } from './layout'
+import { Footer, RedesSociales } from './layout'
 
 
 export const About = () => {
@@ -17,14 +17,13 @@ export const About = () => {
       {/* CARD CURRICULUM */}
 
       <section className='syles-cards'>
-              
 
       <div className="card text-center animate__animated animate__bounceInLeft">
         <img src="../assets/imgs/curriculum.jpg" className="card-img-top" alt="..."/>
           <div className="card-body">
             <h5 className="card-title"> <strong>  { 'Curriculum Vitae'.toUpperCase() } </strong> </h5>
-            <p className="card-text">Te invito a descargar mi Curriculum Vitae</p>
-            <a className="btn" download={`CV_Lionel_Cancellieri`} href="../assets/imgs/curriculum.pdf">Descargar</a>
+            <p className="card-text">Te invito a descargar mi Curriculum Vitae.</p>
+            <a className="btn btn-a" download={`CV_Lionel_Cancellieri`} href="../assets/imgs/curriculum.pdf">Descargar</a>
           </div>
       </div>
 
@@ -33,14 +32,16 @@ export const About = () => {
       <div className="card text-center animate__animated animate__bounceInRight">
         <img src="../assets/imgs/titulo.jpg" className="card-img-top" alt="..."/>
           <div className="card-body">
-            <h5 className="card-title"> <strong> { 'Titulo Universitario'.toUpperCase() } </strong> </h5>
-            <p className="card-text">Te invito a descargar mi Titulo Universitario</p>
-            <a className="btn" download={`Titulo_Desarrollo_de_Software`} href="../assets/imgs/titulo.pdf">Descargar</a>
+            <h5 className="card-title"> <strong> { 'Título Universitario'.toUpperCase() } </strong> </h5>
+            <p className="card-text">Te invito a descargar mi Título Universitario.</p>
+            <a className="btn btn-a" download={`Titulo_Desarrollo_de_Software`} href="../assets/imgs/titulo.pdf">Descargar</a>
           </div>
       </div>
 
+
       </section>
 
+      <RedesSociales />
       
 
       <Footer />

@@ -1,0 +1,30 @@
+
+
+.footer {
+    min-height: 40px;
+    line-height: 7px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3%;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    border-top: 3px solid var(--color-terciary);
+    
+  }
+
+  .footer h5,
+  .footer h8 {
+    margin-bottom: 35px;
+    opacity: 0.4;
+  }
+  
+  .content {
+    min-height: 400px;
+  }
+
+  .img-perfil {
+    padding-bottom: 30px;
+    margin: auto;
+    display: block;
+    width: 150px;
+  }

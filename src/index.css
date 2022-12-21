@@ -1,0 +1,50 @@
+/* Variables */
+
+/* :root {
+  --color-primary: #99d5d8;
+  --color-secondary: #D2BFB9 ;
+  --color-terciary: #1f4474;
+
+} */
+
+
+
+/* Estilos */
+
+
+body {
+  margin: 0;
+  /* background-image: linear-gradient(to right, #2b435a, #041220 ); */
+  font-family: 'Titillium Web', sans-serif; 
+  background-color: var(--color-primary);
+  text-align: justify;
+}
+
+.color-text-global {
+  color: rgb(198, 194, 194);
+}
+
+.page .heading {
+  margin-bottom: 2%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

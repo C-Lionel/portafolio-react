@@ -54,32 +54,34 @@ export const HeaderNav = () => {
                 <div className="offcanvas-header stylecanvas">
                     <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                
+
                 <div className="offcanvas-body stylecanvas">
 
                     <div className="dropdown mt-3">
 
                         <ul>
-                            <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas" >
-                                {/* Para la clase active, se genera dicho ternario y se crea la clase active en el css */}
-                                <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}> Inicio </NavLink>
-                            </li>
 
-                            <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas">
-                                <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}> Sobre mí </NavLink>
-                            </li>
 
-                            <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas">
-                                <NavLink to="/proyectos" className={({ isActive }) => isActive ? 'active' : ''}> Proyectos </NavLink>
-                            </li>
+                            <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>
+                                <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas" > Inicio </li>
+                            </NavLink>
 
-                            <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas">
-                                <NavLink to="/skills" className={({ isActive }) => isActive ? 'active' : ''}> Skills </NavLink>
-                            </li>
+                            <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>
+                                <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas"> Sobre mí </li>
+                            </NavLink>
 
-                            <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas">
-                                <NavLink to="/contacto" className={({ isActive }) => isActive ? 'active' : ''}> Contacto </NavLink>
-                            </li>
+                            <NavLink to="/proyectos" className={({ isActive }) => isActive ? 'active' : ''}>
+                                <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas"> Proyectos </li>
+                            </NavLink>
+
+                            <NavLink to="/skills" className={({ isActive }) => isActive ? 'active' : ''}>
+                                <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas"> Skills </li>
+                            </NavLink>
+                            
+                            <NavLink to="/contacto" className={({ isActive }) => isActive ? 'active' : ''}>
+                                <li className='mt-5 header stylecanvasli' data-bs-dismiss="offcanvas"> Contacto </li>
+                            </NavLink>
+
 
                         </ul>
                     </div>

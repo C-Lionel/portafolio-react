@@ -81,13 +81,15 @@
 }
 
 .header .stylecanvasli {
-  margin-bottom: -20%;
+  color: #788693;
+  margin-bottom: -15%;
   transition: all 0.5s;
 }
 
 .header .stylecanvasli:hover {
   margin-left: -25%;
   transition: all 0.5s;
+  color: #929472;
 }
 
 .header li a {
@@ -113,8 +115,11 @@
 }
 
 .stylecanvas {
-  background-color: #464737;
+  /* background-color: #464737; */
+  background-image: linear-gradient(to right, #464737, #323327 );
 }
+
+
 
 
 

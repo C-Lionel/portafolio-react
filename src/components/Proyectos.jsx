@@ -14,7 +14,7 @@ export const Proyectos = () => {
         works.map(work => {
           return (
             <article className='work-item' key={work.id}>
-              <div className='mask'>
+              <div className='mask animate__animated animate__fadeIn'>
                 <img className='work-img' src={`../assets/imgs/${work.id}.png`} alt="" />
               </div>
               <span> {work.categories} </span>

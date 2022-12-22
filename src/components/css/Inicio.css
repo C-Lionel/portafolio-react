@@ -82,12 +82,13 @@
 
 .header .stylecanvasli {
   color: #788693;
-  margin-bottom: -15%;
+  margin-bottom: -10%;
   transition: all 0.5s;
+  margin-right: 12%;
 }
 
 .header .stylecanvasli:hover {
-  margin-left: -25%;
+  margin-left: -30%;
   transition: all 0.5s;
   color: #bf9146;
 }
@@ -118,6 +119,16 @@
   /* background-color: #464737; */
   background-image: linear-gradient(to right, #454D54, #1F3040 );
 }
+
+#contacto {
+  margin-bottom: 40%;
+}
+
+
+
+
+
+
 
 
 

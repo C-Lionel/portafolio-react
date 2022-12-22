@@ -24,7 +24,7 @@ export const Proyecto = () => {
       </div>
 
       <br /> <br />
-      <div className='proyect-info'>
+      <div className='proyect-info animate__animated animate__backInUp'>
         <h4> <strong> {proyecto.technologies} </strong> </h4>
         <p> {proyecto.description} </p>
       </div>

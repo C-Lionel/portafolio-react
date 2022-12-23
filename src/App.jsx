@@ -1,7 +1,7 @@
 import './App.css'
 import { AppRouter } from './router/AppRouter'
 
-function App() {
+const App = () => {
 
   return (
     <div className='layout container-fluid'>

@@ -1,11 +1,12 @@
 import React from 'react';
-import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
+import { BrowserRouter , Routes, Route, Navigate } from 'react-router-dom';
 import { Contacto, Inicio, About, Skills, Proyectos, Proyecto, Error404 } from '../components';
 import { Footer, HeaderNav } from '../components/layout';
 
 
 export const AppRouter = () => {
     return (
+
         <BrowserRouter>
 
             {/* HEADER Y NAVEGACION */}

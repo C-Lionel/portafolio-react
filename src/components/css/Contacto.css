@@ -53,37 +53,31 @@ textarea {
 
 /* RESPONSE */
 
+
+
+@media (max-width: 480px) {
+
+  form {
+    width: 25rem;
+    margin: auto;
+    padding: 0.2rem 0.5rem;
+    margin-top: 0.7rem;
+  }
+
+  .swal2-icon.swal2-error .swal2-x-mark {
+    font-size: 0.9rem;
+  }
+   
+  .swal2-container.swal2-center>.swal2-popup {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 320px) {
   form {
     width: 16rem;
     margin: auto;
     padding: 0.2rem 0.5rem;
     margin-top: 0.7rem;
-  }
-
-  .contacto {
-    margin-bottom: 2rem;
-  }
-
-  .swal2-container.swal2-center>.swal2-popup {
-    font-size: 0.55rem;
-  }
-}
-
-@media (max-width: 480px) {
-  
-  form {
-    width: 16rem;
-    margin: auto;
-    padding: 0.2rem 0.5rem;
-    margin-top: 0.7rem;
-  }
-
-  .contacto {
-    margin-bottom: 2rem;
-  }
-
-  .swal2-container.swal2-center>.swal2-popup {
-    font-size: 0.55rem;
   }
 }

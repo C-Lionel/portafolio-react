@@ -53,7 +53,7 @@ return (
             }
         </button>
 
-        <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div className="offcanvas offcanvas-end w-100" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
 
             <div className="offcanvas-header stylecanvas">
                 <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

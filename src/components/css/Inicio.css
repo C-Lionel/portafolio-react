@@ -132,8 +132,8 @@
 /* RESPONSE */
 
 
-@media (max-width: 1328px) {
-  
+@media (max-width: 1366px) {
+ 
   .header li {
     font-size: 1.6rem;
     margin: 2.5%;
@@ -152,17 +152,6 @@
     font-size: 88%;
   }
 
-  .header li {
-    font-size: 1.6rem;
-    margin: 2.5%;
-  }
-
-  .logo {
-    width: 9rem;
-    height: 9rem;
-  }
-
-  
  h2 {
   font-size: 1.3rem;
 }

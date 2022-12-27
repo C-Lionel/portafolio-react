@@ -1,5 +1,6 @@
 .carousel-control-next,
 .carousel-control-prev {
+    height: 80%;
     width: 40%;
 }
 
@@ -12,13 +13,60 @@
     padding: 1.8rem;
 }
 
+.carousel-inner.carousel-item, h5, p {
+    color: var( --color-terciary);
+}
+
 
 
 /* RESPONSE */
 
+@media (max-width: 1024px) {
+
+    .carousel-item, h5 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-item, p {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .carousel-item, h5 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-item, p {
+        font-size: 0.8rem;
+    }
+
+  
+  }
+  
+
 @media (max-width: 320px) {
 
-    
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 40%;
+    }
+
+    .skills {
+        padding-top: 0;
+        box-shadow: none;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+
     .carousel-control-next,
     .carousel-control-prev {
         width: 40%;

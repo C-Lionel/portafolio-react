@@ -12,13 +12,17 @@
 /* Estilos */
 
 
+* {
+  font-size: 100%;
+}
+
 body {
+  letter-spacing: 1px;
+  height: 80rem;
   margin: 0;
-  /* background-image: linear-gradient(to right, #2b435a, #041220 ); */
   font-family: 'Titillium Web', sans-serif; 
   background-color: var(--color-primary);
   text-align: justify;
-  font-size: 16px;
 }
 
 .color-text-global {
@@ -28,7 +32,6 @@ body {
 .page .heading {
   margin-bottom: 2%;
   text-align: center;
-  font-size: 40px;
   font-weight: bold;
 }
 

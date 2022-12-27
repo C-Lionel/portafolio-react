@@ -72,6 +72,22 @@
 
 /* RESPONSE */
 
+@media (max-width: 1024px) {
+
+  .work-item span {
+    font-size: 1.1rem;  
+  }
+
+}
+
+@media (max-width: 960px) {
+
+  .work-item h3 {
+    font-size: 1.4rem;  
+  }
+
+}
+
 @media (max-width: 320px) {
 
   .work-item h2 {
@@ -82,6 +98,33 @@
     margin-bottom: 15rem;
   }
 
+  .work-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .page .heading {
+      font-size: 1.7rem;
+  }
+
+  .mask img {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .works {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .work-item h2 {
+    font-size: 1.5rem;
+  }
+
+  
   .work-item h3 {
     font-size: 1.2rem;
   }

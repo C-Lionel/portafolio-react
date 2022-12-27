@@ -38,3 +38,22 @@
     }
 
 }
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: 20px;
+      }
+
+
+    .syles-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+}
+

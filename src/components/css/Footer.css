@@ -38,3 +38,15 @@
      }
 
   }
+
+  @media (max-width: 480px) {
+
+      body {
+        font-size: 20px;
+      }
+    
+     .footer h5 {
+      font-size: 0.9rem;
+     }
+
+  }

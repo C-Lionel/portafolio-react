@@ -31,22 +31,14 @@
 
   /* RESPONSE */
 
-  @media (max-width: 320px) {
-    
+  @media (max-width: 480px) {
+  
      .footer h5 {
-      font-size: 0.9rem;
+      font-size: 1.2rem;
      }
 
-  }
-
-  @media (max-width: 480px) {
-
-      body {
-        font-size: 20px;
-      }
-    
-     .footer h5 {
-      font-size: 0.9rem;
+     .footer h8 {
+      font-size: 0.8rem;
      }
 
   }

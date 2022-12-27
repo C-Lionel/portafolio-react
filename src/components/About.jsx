@@ -3,8 +3,9 @@ import { Footer, RedesSociales } from './layout'
 
 
 export const About = () => {
-  return (
 
+  
+  return (
   
     <div className='page'>
 

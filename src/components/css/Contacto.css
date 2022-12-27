@@ -1,56 +1,71 @@
 form {
-  width: 450px;
+  width: 28rem;
   margin: auto;
-  padding: 10px 20px;
+  padding: 0.6rem 1.25rem;
   box-sizing: border-box;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   border-radius: 5px;
-  
-
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
+  margin-bottom: 1.25rem;
+  padding: 0.4375rem;
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 1.1rem;
   border: none;
 }
-input:hover ,textarea:hover {
-    background-color: #fef2ee;
-    transition: all 300ms;
+
+input:hover,
+textarea:hover {
+  background-color: #fef2ee;
+  transition: all 300ms;
 }
 
 textarea {
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%;
+  min-height: 6rem;
+  max-height: 12.5rem;
+  max-width: 100%;
 }
 
 .boton {
-    padding: 20px;
+  padding: 1.2rem;
 }
 
 .boton:hover {
-    transition: ease 0.4s;
-    background-color: var(--color-secondary);
-    cursor: pointer;
+  transition: ease 0.4s;
+  background-color: var(--color-secondary);
+  cursor: pointer;
 }
 
- .contacto {
+.contacto {
   /* background-image: url('../../assets/imgs/contacto.jpg'); */
   /* background-position: center; */
-  background: linear-gradient(to right, #da89078d, rgba(0, 0, 0, 0.1) ), url("../../assets/imgs/contacto.jpg") center 100% ;  
+  background: linear-gradient(to right, #da89078d, rgba(0, 0, 0, 0.1)), url("../../assets/imgs/contacto.jpg") center 100%;
   background-size: cover;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
   margin: auto;
-  border-radius: 5px;
-  padding-top: 20px;
-  padding: 25px;
+  border-radius: 0.3rem;
+  padding-top: 1.25rem;
+  padding: 1.5rem;
 }
 
+/* RESPONSE */
 
+@media (max-width: 320px) {
+  form {
+    width: 16rem;
+    margin: auto;
+    padding: 0.2rem 0.5rem;
+    margin-top: 0.7rem;
+  }
 
+  .contacto {
+    margin-bottom: 2rem;
+  }
 
-
+  .swal2-container.swal2-center>.swal2-popup {
+    font-size: 0.55rem;
+  }
+}

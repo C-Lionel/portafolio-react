@@ -1,30 +1,40 @@
 
 
 .footer {
-    min-height: 40px;
-    line-height: 7px;
+    min-height: 2.5rem;
+    line-height: 0.4rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.8rem;
     margin-top: 3%;
-    padding-top: 45px;
-    padding-bottom: 25px;
+    padding-top: 2.8rem;
+    padding-bottom: 1.5rem;
     border-top: 3px solid var(--color-terciary);
-    
   }
 
   .footer h5,
   .footer h8 {
-    margin-bottom: 35px;
+    margin-bottom: 2.2rem;
     opacity: 0.4;
   }
   
   .content {
-    min-height: 400px;
+    min-height: 25rem;
   }
 
   .img-perfil {
-    padding-bottom: 30px;
+    padding-bottom: 1.8rem;
     margin: auto;
     display: block;
-    width: 150px;
+    width: 9.3rem;
+  }
+
+
+  /* RESPONSE */
+
+  @media (max-width: 320px) {
+    
+     .footer h5 {
+      font-size: 0.9rem;
+     }
+
   }

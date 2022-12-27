@@ -5,9 +5,29 @@
 
 .skills {
     background-color: #24457313;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.7);
     margin: auto;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding: 30px;
+    border-radius: 0.6rem;
+    padding-top: 1.25rem;
+    padding: 1.8rem;
+}
+
+
+
+/* RESPONSE */
+
+@media (max-width: 320px) {
+
+    
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 40%;
+    }
+
+    .skills {
+        padding-top: 0;
+        box-shadow: none;
+    }
+
+
 }

@@ -6,7 +6,7 @@
 .work-item {
   flex-basis: 30%;
   flex-grow: 1;
-  margin: 30px;
+  margin: 1.8rem;
 }
 
 .work-item img {
@@ -23,14 +23,14 @@
 .work-item .mask {
   height: 100%;
   overflow: hidden;
-  border: 1px solid #2e5b85;
-  box-shadow: 0px 5px 15px #788693;
+  border: 0.06rem solid #2e5b85;
+  box-shadow: 0rem 0.3rem 0.9rem #788693;
 }
 
 .work-item span {
   display: block;
   color: var(--color-terciary);
-  margin-top: 35px;
+  margin-top: 2.1rem;
 }
 
 .work-img:hover {
@@ -40,11 +40,11 @@
 
 .work-item h2 {
   text-decoration: none;
-  font-size: 35px;
+  font-size: 2.1rem;
   display: block;
   color: black;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.6rem;
 
 }
 
@@ -55,19 +55,45 @@
 }
 
 .work-item h3 {
-  font-size: 25px;
+  font-size: 1.5rem;
   display: block;
-  padding-top: 15px;
-  margin-top: 0px;
-  border-top: 1px solid #788693;
+  padding-top: 0.9rem;
+  margin-top: 0rem;
+  border-top: 0.06rem solid #788693;
 }
 
 .proyect-info {
   text-align: center;
 }
 .proyect-info p {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
+}
+
+/* RESPONSE */
+
+@media (max-width: 320px) {
+
+  .work-item h2 {
+    font-size: 1.5rem;
+  }
+
+  .work-item {
+    margin-bottom: 15rem;
+  }
+
+  .work-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .page .heading {
+      font-size: 1.7rem;
+  }
+
+  .mask img {
+    width: 100%;
+  }
+
 }
 
 
@@ -78,10 +104,5 @@
 
 
 
-/* MEDIAS */
-/* Siempre y cuando el ancho de la pantalla no supere los 500px */
 
-/* @media (max-width: 500px) {
 
- 
-} */

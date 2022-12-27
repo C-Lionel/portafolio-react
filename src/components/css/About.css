@@ -23,3 +23,18 @@
     margin-bottom: 10%;
 
 }
+
+
+/* RESPONSE */
+
+@media (max-width: 320px) {
+    .syles-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+}

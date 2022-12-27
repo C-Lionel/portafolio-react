@@ -18,6 +18,7 @@ body {
   font-family: 'Titillium Web', sans-serif; 
   background-color: var(--color-primary);
   text-align: justify;
+  font-size: 16px;
 }
 
 .color-text-global {
@@ -39,6 +40,8 @@ a {
   color: blue;
   background-color: blue;
 }
+
+
 
 
 

@@ -74,6 +74,33 @@
 
 @media (max-width: 1024px) {
 
+  .proyect-info p {
+    font-size: 0.8rem;  
+  }
+  
+.works {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.work-item h2 {
+  font-size: 1.5rem;
+}
+
+.page .heading {
+    font-size: 1.7rem;
+}
+
+.mask img {
+  width: 100%;
+}
+
+}
+
+
+@media (max-width: 1024px) {
+
   .work-item span {
     font-size: 1.1rem;  
   }

@@ -1,10 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 
 export const Inicio = () => {
-  return (
-    <div className='home'>
 
+  return (
+
+
+    <div className='home'>
+      
       <h1 className='animate__animated animate__pulse  animate__delay-1s animate__repeat-2'> BIENVENIDOS A MI PORTAFOLIO DIGITAL </h1>
 
       <h2 className='color-text-global'>
@@ -19,6 +23,12 @@ export const Inicio = () => {
 
         </div>
       </section> */}
+
     </div>
+
+
+  
+
+
   )
 }

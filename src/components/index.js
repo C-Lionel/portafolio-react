@@ -6,3 +6,4 @@ export * from './Proyectos';
 export * from './Proyecto';
 export * from './layout';
 export * from './Error404';
+export * from './Loading';

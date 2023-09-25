@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Footer, RedesSociales } from './layout'
 
 
 export const Contacto = () => {
@@ -60,6 +61,9 @@ export const Contacto = () => {
 
   return (
 
+    <>
+    
+
     <div className='page contacto'>
       <h1 className='heading heading animate__animated animate__zoomIn'>CONTACTO</h1>
 
@@ -78,6 +82,12 @@ export const Contacto = () => {
       </form>
 
     </div>
+
+    <RedesSociales />
+
+    <Footer />
+
+    </>
   );
 };
 

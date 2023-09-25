@@ -13,6 +13,7 @@ export const Proyecto = () => {
   }, [])
 
   return (
+
     <div className='page page-work'>
 
       <Link to='/proyectos'>
@@ -45,6 +46,8 @@ export const Proyecto = () => {
 
 
     </div>
+
+    
   )
 }
 

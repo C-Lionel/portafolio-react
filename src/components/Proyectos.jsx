@@ -2,8 +2,10 @@ import React from 'react';
 import { works } from '../data/works';
 import { Link } from 'react-router-dom';
 
+
 export const Proyectos = () => {
   return (
+
     <div className='page'>
 
       <h1 className='heading heading animate__animated animate__flipInX'>PROYECTOS</h1>
@@ -26,10 +28,6 @@ export const Proyectos = () => {
       }
 
       </section>
-
-
-
-
 
     </div>
   )

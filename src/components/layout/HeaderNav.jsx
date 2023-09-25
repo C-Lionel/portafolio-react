@@ -1,37 +1,55 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { RedesSociales } from './RedesSociales';
+import Loading from '../Loading';
 
 export const HeaderNav = () => {
-      
-    return (
+
+
+    const [isLoading, setIsLoading] = useState(false);
+    const [hasDataToLoad, setHasDataToLoad] = useState(false); // Cambia esto según tu lógica
+
+    const handleNavLinkClick = () => {
+        if (!hasDataToLoad) {
+            setIsLoading(true); // Establece isLoading en true solo si no tienes información para cargar
+            setIsLoading(false); // Establece isLoading en false después de cargar los datos (simulados)
         
+        }
+    };
+
+   
+
+
+    return (
+
         <header className='header'>
 
-            <NavLink to="/"> <img className='logo' src="../assets/imgs/logo.png" alt="logo" />  </NavLink>
+            <NavLink onClick={handleNavLinkClick} to="/"> <img className='logo' src="../assets/imgs/logo.png" alt="logo" />  </NavLink>
 
             <nav>
 
-                <ul>
+            {isLoading && <Loading />}
+                
+                <ul >
                     <li>
                         {/* Para la clase active, se genera dicho ternario y se crea la clase active en el css */}
-                        <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}> Inicio </NavLink>
+                        <NavLink to="/" onClick={handleNavLinkClick}  className={({ isActive }) => isActive ? 'active' : ''}> Inicio </NavLink>
                     </li>
 
                     <li>
-                        <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}> Sobre mí </NavLink>
+                        <NavLink to="/about" onClick={handleNavLinkClick}  className={({ isActive }) => isActive ? 'active' : ''}> Sobre mí </NavLink>
                     </li>
 
                     <li>
-                        <NavLink to="/proyectos" className={({ isActive }) => isActive ? 'active' : ''}> Proyectos </NavLink>
+                        <NavLink to="/proyectos" onClick={handleNavLinkClick}  className={({ isActive }) => isActive ? 'active' : ''}> Proyectos </NavLink>
                     </li>
 
                     <li>
-                        <NavLink to="/skills" className={({ isActive }) => isActive ? 'active' : ''}> Skills </NavLink>
+                        <NavLink to="/skills" onClick={handleNavLinkClick}  className={({ isActive }) => isActive ? 'active' : ''}> Skills </NavLink>
                     </li>
 
                     <li>
-                        <NavLink to="/contacto" className={({ isActive }) => isActive ? 'active' : ''}> Contacto </NavLink>
+                        <NavLink to="/contacto" onClick={handleNavLinkClick}  className={({ isActive }) => isActive ? 'active' : ''}> Contacto </NavLink>
                     </li>
 
                 </ul>
@@ -100,7 +118,6 @@ export const HeaderNav = () => {
 
 
             </div>
-
 
         </header>
 

@@ -1,9 +1,22 @@
-import React, { useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Footer, RedesSociales } from './layout'
+import Loading from './Loading';
 
 
 export const Contacto = () => {
+
+  const [isLoading, setIsLoading] = useState(true);
+  const [hasDataToLoad, setHasDataToLoad] = useState(false); // Cambia esto según tu lógica
+
+  useEffect(() => {
+    // Simula la obtención de datos (puedes reemplazar esto con tu lógica real)
+  
+      // Cambia setHasDataToLoad a true si tienes información para cargar
+      setHasDataToLoad(true);
+      // Establece isLoading en false después de cargar los datos (simulados)
+      setIsLoading(false);
+  }, []); // El segundo argumento [] asegura que este efecto se ejecute solo una vez
 
   const form = useRef();
 
@@ -65,6 +78,7 @@ export const Contacto = () => {
     
 
     <div className='page contacto'>
+    {isLoading && !hasDataToLoad ? <Loading /> : null}
       <h1 className='heading heading animate__animated animate__zoomIn'>CONTACTO</h1>
 
       <form ref={form} onSubmit={sendEmail}>

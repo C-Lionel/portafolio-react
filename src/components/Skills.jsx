@@ -23,7 +23,7 @@ export const Skills = () => {
 
       <h1 className='heading heading animate__animated animate__bounceIn'>SKILLS</h1>
 
-      {/* <section className='d-block d-sm-none mt-4'>
+      <section className='d-block d-sm-none mt-4'>
 
         <div>
           <img src="../assets/imgs/html-5.png" className="card-img-top" alt="..." />
@@ -124,7 +124,7 @@ export const Skills = () => {
 
         <br />
 
-      </section> */}
+      </section>
 
 
       {/* <img src="./src/assets/imgs/contacto.jpg" alt="hola" /> */}

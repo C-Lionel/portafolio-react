@@ -22,6 +22,8 @@
   height: 500px;
 }
 
+
+
 .work-item .mask {
   height: 100%;
   overflow: hidden;
@@ -179,6 +181,15 @@
 
 }
 
+ @media (max-width: 600px) {
+
+  .mask img {
+    height: 250px;
+    width: 250px;
+  }
+ 
+
+} 
  @media (max-width: 320px) {
 
    .bi-backspace {

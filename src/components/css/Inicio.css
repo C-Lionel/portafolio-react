@@ -8,7 +8,7 @@
 
 }
 
- h2 {
+h2 {
   font-size: 1.6rem;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .logo {
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
   width: 11.25rem;
   height: 11.25rem;
 }
@@ -66,7 +66,7 @@
 
 .header nav ul {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
@@ -107,17 +107,6 @@
   color: var(--color-secondary);
 }
 
-.button-canva {
-  background-color: #9dc1e3;
-  margin-bottom: 1.8rem;
-  font-size: 1.25rem;
-}
-
-.button-canva:hover {
-  background-color: #7cbaf4;
-  transition: all 300ms;
-}
-
 .stylecanvas {
   /* background-color: #464737; */
   background-image: linear-gradient(to right, #454D54, #1F3040);
@@ -133,58 +122,66 @@
 
 
 @media (max-width: 1366px) {
- 
-  .header li {
-    font-size: 1.6rem;
-    margin: 2.5%;
-  }
-
-  .logo {
-    width: 9rem;
-    height: 9rem;
-  }
-  
-}
-
-@media (max-width: 1024px) {
 
   * {
-    font-size: 88%;
+    font-size: 90%;
   }
 
- h2 {
-  font-size: 1.3rem;
+  /* .header li {
+    font-size: 1.6rem;
+    margin: 2.5%;
+  } */
+
 }
+
+@media (max-width: 1070px) {
+
+  * {
+    font-size: 80%;
+  }
+
 
 }
 
 @media (max-width: 960px) {
 
   * {
-    font-size: 80%;
+    font-size: 70%;
+  }
+
+}
+@media (max-width: 800px) {
+
+  .linkedin {
+    margin-left: 4rem;
   }
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 709px) {
 
   * {
-    font-size: 75%;
+    font-size: 60%;
   }
-
 
 }
 
-@media (max-width: 480px) {
+
+@media (max-width: 575px) {
+
+
+  * {
+    font-size: 60%;
+  }
 
   .stylecanvas button {
     font-size: 1.2rem;
   }
 
 
-  .home a {
+  /* .home a {
     font-size: 0.6rem;
-  }
+  } */
 
   h2 {
     font-size: 1.2rem;
@@ -203,21 +200,12 @@
   }
 
   .logo {
-    margin: 0;
-    width: 10rem;
-    height: 10rem;
-    margin-left: 0.8rem;
+    margin-top: 1.5rem;
   }
 
-  .button-canva {
-    padding: 0.35rem;
-    margin: 0;
-    margin-right: 2rem;
-  }
-
-  .header li {
+  /* .header li {
     font-size: 1.8rem;
-  }
+  } */
 
   .header .stylecanvasli {
     margin-bottom: -1.5rem;
@@ -227,20 +215,20 @@
     margin-bottom: 20%;
   }
 
- 
+
 
 }
 
 @media (max-width: 320px) {
 
-  
+  .logo {
+    margin-top: 1rem;
+  }
+
+
   .home a {
     font-size: 0.5rem;
   }
 
 
 }
-
-
-
-

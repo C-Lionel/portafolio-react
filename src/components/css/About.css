@@ -27,7 +27,28 @@
 
 /* RESPONSE */
 
+@media (max-width: 1065px) {
+    .color-strong {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .color-strong {
+        font-size: 1.3rem;
+    }
+
+}
+
+
 @media (max-width: 320px) {
+
+    .color-strong {
+        font-size: 1rem;
+    }
+
     .syles-cards {
         display: flex;
         flex-direction: column;
@@ -40,11 +61,6 @@
 }
 
 @media (max-width: 480px) {
-
-    body {
-        font-size: 20px;
-      }
-
 
     .syles-cards {
         display: flex;

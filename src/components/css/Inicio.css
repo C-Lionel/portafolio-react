@@ -79,8 +79,8 @@ h2 {
 .header li {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.75rem;
-  margin: 4%;
+  font-size: 1.6rem;
+  margin: 3%;
 }
 
 .header .stylecanvasli {
@@ -120,26 +120,11 @@ h2 {
 
 /* RESPONSE */
 
-
-@media (max-width: 1366px) {
-
-  * {
-    font-size: 90%;
-  }
-
-  /* .header li {
-    font-size: 1.6rem;
-    margin: 2.5%;
-  } */
-
-}
-
 @media (max-width: 1070px) {
 
   * {
     font-size: 80%;
   }
-
 
 }
 
@@ -179,9 +164,9 @@ h2 {
   }
 
 
-  /* .home a {
+  .home a {
     font-size: 0.6rem;
-  } */
+  }
 
   h2 {
     font-size: 1.2rem;

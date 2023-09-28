@@ -19,10 +19,12 @@
 
 
 
+
 /* RESPONSE */
 
-@media (max-width: 1024px) {
 
+@media (max-width: 1024px) {
+    
     .carousel-item, h5 {
         font-size: 1.5rem;
     }
@@ -46,6 +48,31 @@
 
   
   }
+@media (max-width: 575px) {
+
+    .skills section div {
+        margin-top: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+  
+  }
+
+  @media (max-width: 480px) {
+
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 40%;
+    }
+
+    .skills {
+        padding-top: 0;
+        box-shadow: none;
+    }
+
+
+}
   
 
 @media (max-width: 320px) {
@@ -64,18 +91,3 @@
 
 }
 
-@media (max-width: 480px) {
-
-
-    .carousel-control-next,
-    .carousel-control-prev {
-        width: 40%;
-    }
-
-    .skills {
-        padding-top: 0;
-        box-shadow: none;
-    }
-
-
-}

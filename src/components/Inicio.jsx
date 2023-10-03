@@ -10,20 +10,21 @@ export const Inicio = () => {
 
   useEffect(() => {
     // Simula la obtención de datos (puedes reemplazar esto con tu lógica real)
-  
+
       // Cambia setHasDataToLoad a true si tienes información para cargar
-      setHasDataToLoad(true);
-      // Establece isLoading en false después de cargar los datos (simulados)
-      setIsLoading(false);
+    setHasDataToLoad(true);
+    // Establece isLoading en false después de cargar los datos (simulados)
+    setIsLoading(false);
+      
   }, []); // El segundo argumento [] asegura que este efecto se ejecute solo una vez
-  
+
 
   return (
 
 
     <div className='home'>
 
-    {isLoading && !hasDataToLoad ? <Loading /> : null}
+      {isLoading && !hasDataToLoad ? <Loading /> : null}
 
       <h1 className='animate__animated animate__pulse  animate__delay-1s animate__repeat-2'> BIENVENIDOS A MI PORTAFOLIO DIGITAL </h1>
 

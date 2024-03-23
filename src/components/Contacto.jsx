@@ -87,8 +87,8 @@ export const Contacto = () => {
         <input type="text" name='nombre' id='nombre' placeholder='Nombre' required />
         <input type="text" name='apellido' id='apellido' placeholder='Apellido' required  />
         <input  type="email" name='email' id='email' placeholder='E-Mail' required />
-        <input type="tel" name='telefono' id='telefono' placeholder='Teléfono' required />
-        <input type="text" name='asunto' id='asunto' placeholder='Asunto' pattern="[0-9]*" required />
+        <input type="tel" name='telefono' id='telefono' placeholder='Teléfono' pattern="[0-9]*" required />
+        <input type="text" name='asunto' id='asunto' placeholder='Asunto' required />
         <textarea name="mensaje" id='mensaje' placeholder='Mensaje' required></textarea>
         <input type="submit" value='ENVIAR' className='boton' />
 

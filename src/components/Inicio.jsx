@@ -21,6 +21,7 @@ export const Inicio = () => {
 
   return (
 
+  
 
     <div className='home'>
 
@@ -37,15 +38,15 @@ export const Inicio = () => {
         <h2 className='heading'>Algunos de mis proyectos</h2>
         <p className='color-text-global'>Estos son algunos de mis proyectos de desarrollo web</p>
         <div className='works'>
-
+        
         </div>
       </section> */}
 
     </div>
 
+    
 
 
-
-
+ 
   )
 }
